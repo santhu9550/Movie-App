@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    background-image: url(https://www.transparenttextures.com/patterns/cubes.png);
+    padding: 0 16px;
+}
+
+
+.App {
+    text-align: center;
+}
+
+
+header {
+    background-color: rgba(27,27,26,.76);
+    height: 50px;
+    margin: 0 -16px;
+}
+
+header h1 {
+    color: #fff;
+    font-family: "McLaren";
+    font-weight: 200;
+    position: absolute;
+    left: 2%;
+}
+
+.MovieSearch {
+    margin-top: 20px;
+}
+
+.label {
+    font-size: 1.3rem;
+    margin-bottom: .2rem;
+    text-transform: uppercase;
+}
+
+
+.input {
+    font-size: 1.6rem;
+    padding: .5rem 2rem;
+    line-height: 1.5rem;
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    outline: 0;
+}
+
+.button {
+    cursor: pointer;
+    transition: background-color .25s;
+    background-color: rgba(0,0,0,.75);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: 1%;
+    padding: .5rem 1rem;
+    border: 1px solid rgba(0,0,0,.75);
+    outline: 0;
+}
+
